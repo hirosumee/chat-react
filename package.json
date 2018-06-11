@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.2",
     "mongoose": "^5.1.4",
@@ -24,6 +25,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "proxy": "http://*:4000"
+  }
 }
