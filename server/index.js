@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const userModel = require('./models/user');
 const messageModel = require('./models/message');
-mongoose.connect('mongodb://localhost:27017/react-chat',function(err){
+//mongodb://localhost:27017/react-chat
+mongoose.connect('mongodb://hirosume:cuong299@ds155730.mlab.com:55730/react-chat',function(err){
     if(err){
         console.log(err);
     } else {
